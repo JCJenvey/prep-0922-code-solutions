@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript DOM Creation</title>
+</head>
+<body>
+  <div id="container">
+
+  </div>
+  <script>
+    // Your code here
+    const $container = document.querySelector('#container');
+    const $heading = document.createElement('h1');
+    $heading.textContent = 'Hello World!';
+    $container.appendChild($heading);
+  </script>
+</body>
+</html>
